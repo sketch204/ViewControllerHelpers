@@ -7,10 +7,10 @@
 
 import UIKit
 
-protocol Dismissable {}
+public protocol Dismissable {}
 
 extension Dismissable where Self: UIViewController {
-    func dismiss() {
+    public func dismiss() {
         if let navVC = self.navigationController {
             if navVC.viewControllers.count > 1 {
                 navVC.popViewController(animated: true)

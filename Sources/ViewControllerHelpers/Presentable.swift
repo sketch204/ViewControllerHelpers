@@ -10,12 +10,12 @@ import UIKit
 /**
 Use this protocol for an easy way to instantiate and present your view controllers from their storyboards. Objects conforming to this protocol must provide a storyboardName property with an initial value.
 */
-protocol Presentable: Storyboarded {}
+public protocol Presentable: Storyboarded {}
 
 extension Presentable where Self: UIViewController {
     
     @discardableResult
-    static func present(in host: UIViewController,
+    public static func present(in host: UIViewController,
                         presenter: Presenter,
                         configuration: ((Self) -> Void)? = nil) -> Bool
     {
