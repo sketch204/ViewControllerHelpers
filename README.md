@@ -6,7 +6,7 @@ A library that adds helper methods to your view controllers to make it easier to
 The preferred way of installing this library is through the Swift Package Manager.
 
 1. In Xcode, open your project and navigate to File → Swift Packages → Add Package Dependency...
-1. Paste the repository URL (https://github.com/sketch204/ActivityIndicators) and click Next.
+1. Paste the repository URL (https://github.com/sketch204/ViewControllerHelpers) and click Next.
 1. For Rules, select Branch (with branch set to master).
 1. Click Finish.
 
